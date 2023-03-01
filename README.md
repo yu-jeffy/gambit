@@ -1,2 +1,2 @@
 # gambit
-decentralized chess
+decentralized chess, ranked elo and board state stored on chain
