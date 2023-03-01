@@ -1,0 +1,2 @@
+# gambit
+decentralized chess
