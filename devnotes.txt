@@ -1,0 +1,12 @@
+The board.sol contract sets up a basic chess board with an 8x8 grid, where each cell contains a `Piece` struct with a `PieceType` and a `Player`. The `movePiece` function allows players to move pieces on the board, and the `isValidMove` function checks if a move is valid based on the piece type and game rules.
+
+steps:
+
+1. Set up the initial state of the chess board in the `setupBoard` function.
+2. Implement the game rules and piece movements in the `isValidMove` function.
+3. Add logic to handle special moves like castling, en passant, and pawn promotion.
+4. Implement a function to check if a player is in check or checkmate.
+5. Add access control to ensure that only the two players involved in the game can make moves.
+
+research off-chain solutions to decrease gas fees of playing
+(like state channels or optimistic rollups to reduce the on-chain computation and storage)
